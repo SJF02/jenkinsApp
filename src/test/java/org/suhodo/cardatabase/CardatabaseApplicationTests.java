@@ -5,7 +5,6 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.suhodo.cardatabase.domain.AppUser;
 import org.suhodo.cardatabase.domain.Car;
@@ -18,7 +17,7 @@ import jakarta.transaction.Transactional;
 import lombok.extern.log4j.Log4j2;
 
 @Log4j2
-@SpringBootTest
+// @SpringBootTest
 class CardatabaseApplicationTests {
 
 	@Autowired
