@@ -1,0 +1,20 @@
+# node_modules 폴더 무시
+node_modules/
+
+# 로그 파일 무시
+*.log
+logs
+
+# macOS, 에디터, 디자인 파일 무시
+.DS_*
+*.sublime*
+psd
+thumb
+sketch
+
+# 백업 파일 무시
+**/*.backup.*
+**/*.back.*
+
+# 기타 패키지 매니저 폴더 무시
+bower_components/
