@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 // import MainApp from './ex01_MainApp/MainApp';
 // import MainApp from './ex02_CarList/MainApp';
